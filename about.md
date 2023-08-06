@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+security researcher
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[r3lient.sec@gmail.com](mailto:r3lient.sec@gmail.com)
