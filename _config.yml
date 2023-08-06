@@ -9,7 +9,7 @@ name: nilclass
 description: collection of security research
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/ST4RGUARD/ST4RGUARD.github.io/images/beyonder.png
+avatar: https://github.com/ST4RGUARD/ST4RGUARD.github.io/tree/master/images/beyonder.png
 
 #
 # Flags below are optional
@@ -21,7 +21,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: https://github.com/ST4RGUARD/
+  github: ST4RGUARD
   instagram:
   linkedin:
   pinterest:
