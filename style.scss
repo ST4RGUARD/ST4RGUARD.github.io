@@ -35,7 +35,7 @@ body {
 
 h1 {
   font-family: 'Source Code Pro', monospace;
-  color: $white;
+  color: rgb(193, 185, 185);
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -48,7 +48,7 @@ h1 {
 
 h2 {
   font-family: 'Source Code Pro', monospace;
-  color: $white;
+  color: rgb(193, 185, 185);
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -76,13 +76,14 @@ h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: inherit;
+    color: blue;
   }
 }
 
 h2 {
   font-style: italic;
   font-size: 16px;
+  color: blue;
 }
 
 h3 {
