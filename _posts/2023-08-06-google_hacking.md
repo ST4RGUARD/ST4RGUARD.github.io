@@ -3,7 +3,7 @@ layout: post
 title: 08/06/23 google hacking
 ---
 
-https://www.exploit-db.com/google-hacking-database contains many useful queries and examples
+[exploit-db google-hacking-database](https://www.exploit-db.com/google-hacking-database) contains many useful queries and examples
 
 site:megacorpone.com filetype:jpg -filetype:html (exclude html)
 
