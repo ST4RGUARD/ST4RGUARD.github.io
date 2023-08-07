@@ -7,7 +7,7 @@ site:megacorpone.com filetype:jpg -filetype:html (exclude html)
 
 can find files like robot.txt
 
-![_config.yml]({{ site.baseurl }}/images/info_gathering/google_hacking.png)
+![_config.yml]({{ site.baseurl }}/images/info_gathering/google_hack.png)
 
 intitle: "indexof" "parent directory"
 
