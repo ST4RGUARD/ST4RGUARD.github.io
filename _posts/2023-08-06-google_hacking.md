@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 08/06/23 google hacking
+titledate: 08/06/23
 ---
 
 [exploit-db google-hacking-database](https://www.exploit-db.com/google-hacking-database) contains many useful queries and examples
