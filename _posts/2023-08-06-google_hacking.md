@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 08/06/23 google hacking
+title: google hacking
 titledate: 08/06/23
 ---
 
