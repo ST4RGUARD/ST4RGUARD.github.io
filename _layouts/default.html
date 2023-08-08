@@ -10,15 +10,15 @@
 
   </head>
   <body>
-    <script type='text/javascript'>//<![CDATA[ 
-      $(window).load(function(){<!--  w w w. j av a  2s.co m-->
-          $("div[data-role=header]").on("click", function () {
-              $("div[data-role=navbar]").slideToggle(200);
-          });
-          $("div[data-role=navbar]").on("click", function (e) {
-              e.stopPropagation();
-          });
-      });//]]>  
+      <script>
+        $('.tags') .hide()
+        $('a[href^="#1"]').on('click', function(event) {
+        $('.tags') .hide()
+            var target = $(this).attr('href');
+
+            $('.tags'+target).toggle();
+
+        });
       </script>
     <div class="wrapper-masthead">
       <div class="container">
@@ -32,20 +32,11 @@
 
 
           <nav>
-            <div data-role="page">
-              <div data-role="header">
-                <!-- /navbar -->
-                <h1>Tags</h1>
-                <div data-role="navbar">
-                  <ul>
-                    <li><a href="">Settings</a></li>
-                  </ul>
-                </div>
-              </div>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
+            <a href="#1">Tags</a>
           </nav>
-          
+          <div class="tags" id="tag_id">tagssss</div>  
         </header>
       </div>
     </div>
