@@ -11,6 +11,13 @@
   </head>
 
   <body>
+    <script>
+      $(document).ready(function(){
+          $('#show').click(function() {
+            $('.menu').toggle("slide");
+          });
+      });
+    </script>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -22,6 +29,15 @@
           </div>
 
           <nav>
+            <div id="show">Tags</div>
+              <div class="menu" style="display: none;">
+                <ol>
+                <li>India</li>
+                <li>US</li>
+                <li>UK</li>
+                <li>Australia</li>
+                </ol>
+            </div>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
