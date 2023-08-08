@@ -36,9 +36,9 @@
       </div>
       <div class="wrapper-footer">
         <div class="container" id="target" style="display: none;">
-          <footer class="footer">
-            {{ site.tags }}
-          </footer>
+          {% for tag in page.tags %}
+            <a class="post" href="/tag/{{tag}}">#{{tag}}</a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
         </div>
     </div>
 
