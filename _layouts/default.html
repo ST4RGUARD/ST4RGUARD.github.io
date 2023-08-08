@@ -11,13 +11,11 @@
   </head>
   <body>
       <script>
-        $('.tags') .hide()
-        $('a[href^="#1"]').on('click', function(event) {
-        $('.tags') .hide()
-            var target = $(this).attr('href');
-
-            $('.tags'+target).toggle();
-
+        $(document).ready(function(){
+        $(".tags").click(function(){
+            $("#showme").show();
+          $("#tohide").hide();
+        });
         });
       </script>
     <div class="wrapper-masthead">
@@ -34,11 +32,12 @@
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
-            <a href="#1">Tags</a>
+            <a href="#" class="tags">Tags</a>
           </nav>
-          <div class="tags" id="tag_id">tagssss</div>  
         </header>
       </div>
+      <div id="showme">Howdy</div>
+      <div id="tohide">fine</div>
     </div>
 
     <div id="main" role="main" class="container">
