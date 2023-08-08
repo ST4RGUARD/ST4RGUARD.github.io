@@ -10,14 +10,21 @@
 
   </head>
   <body>
-      <script>
-        $(document).ready(function(){
-        $(".tags").click(function(){
-            $("#showme").show();
-          $("#tohide").hide();
-        });
-        });
-      </script>
+    <script>
+      const toggleDisplay = (trigger, target, defaultDisplay = 'block') => {
+        target.style.display = defaultDisplay
+        trigger.addEventListener('click', e => {
+          target.style.display = 
+            (target.style.display == defaultDisplay) ?
+              'none' :
+              defaultDisplay
+        })
+      }
+      
+      toggleDisplay(  document.querySelector("#trigger"),
+      document.querySelector("#target")
+      )
+    </script>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -32,12 +39,11 @@
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
-            <a href="#" class="tags">Tags</a>
+            <a href="#" id="trigger">Tags</a>
           </nav>
         </header>
       </div>
-      <div id="showme">Howdy</div>
-      <div id="tohide">fine</div>
+      <div class="wrapper-footer" id="target" style="display: block;">zzzz</div>
     </div>
 
     <div id="main" role="main" class="container">
