@@ -2,7 +2,7 @@
 layout: post
 title: open source
 titledate: 08/07/23
-tags: infosec offsec info_gathering
+tags: ["infosec","offsec","info_gathering"]
 ---
 
 check online repos for publicaly listed data 
