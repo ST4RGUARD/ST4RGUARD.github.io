@@ -11,19 +11,17 @@
   </head>
   <body>
     <script>
-      const toggleDisplay = (trigger, target, defaultDisplay = 'block') => {
+      const toggleDisplay = (trigger, target, defaultDisplay = 'none') => {
         target.style.display = defaultDisplay
         trigger.addEventListener('click', e => {
           target.style.display = 
             (target.style.display == defaultDisplay) ?
-              'none' :
+              'block' :
               defaultDisplay
         })
       }
       
-      toggleDisplay(  document.querySelector("#trigger"),
-      document.querySelector("#target")
-      )
+      toggleDisplay(document.querySelector("#trigger"),document.querySelector("#target"))
     </script>
     <div class="wrapper-masthead">
       <div class="container">
