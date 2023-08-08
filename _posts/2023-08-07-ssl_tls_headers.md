@@ -2,6 +2,7 @@
 layout: post
 title: SSL/TLS Headers
 titledate: 08/07/23
+tags: ["infosec","offsec","info_gathering"]
 ---
 
 [security headers](https://securityheaders.com) and [Qualys SSL Test](https://www.ssllabs.com/ssltest)

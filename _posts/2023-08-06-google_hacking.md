@@ -2,6 +2,7 @@
 layout: post
 title: google hacking
 titledate: 08/06/23
+tags: ["infosec","info_gathering","offsec","google"]
 ---
 
 [exploit-db google-hacking-database](https://www.exploit-db.com/google-hacking-database) contains many useful queries and examples
