@@ -10,19 +10,6 @@
 
   </head>
   <body>
-    <script>
-      const toggleDisplay = (trigger, target, defaultDisplay = 'block') => {
-        target.style.display = defaultDisplay
-        trigger.addEventListener('click', e => {
-          target.style.display = 
-            (target.style.display == defaultDisplay) ?
-              'block' :
-              defaultDisplay
-        })
-      }
-      
-      toggleDisplay(document.querySelector("#trigger"),document.querySelector("#target"))
-    </script>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -37,7 +24,7 @@
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
-            <a href="#" id="trigger">Tags</a>
+            <a href="#" id="trigger" onclick="toggleDisplay(document.querySelector('#target'))">Tags</a>
           </nav>
         </header>
       </div>
