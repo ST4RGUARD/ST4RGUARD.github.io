@@ -37,9 +37,9 @@
       <div class="wrapper-footer">
         <div class="container" id="target" style="display: none;">
           {% for tag in page.tags %}
-            {{ tag }}
-            <a class="post" href="/tag/{{tag}}">#{{tag}}</a>{% unless forloop.last %}, {% endunless %}
-          {% endfor %}
+          {% capture tag_name %}{{ tag }}{% endcapture %}
+          <a href="/tag/{{ tag_name }}"><code class="highligher-rouge" style="color:#969595;border-color:hsla(0, 0%, 59%,0.6)"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+        {% endfor %}
         </div>
     </div>
 
