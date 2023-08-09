@@ -4,7 +4,6 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
-    {% include head.html %}
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
@@ -37,10 +36,7 @@
       </div>
       <div class="wrapper-footer">
         <div class="container" id="target" style="display: none;">
-          {% for tag in site.tags %}
-          {% capture tag_name %}{{ tag }}{% endcapture %}
-            <a href="/tag/{{ tag_name }}"><code class="highligher-rouge" style="color: white">{{ tag_name }}</code></a>
-          {% endfor %}
+            {{ site.tags }}
         </div>
     </div>
 
