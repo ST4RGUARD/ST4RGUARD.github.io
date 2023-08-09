@@ -36,8 +36,8 @@
       </div>
       <div class="wrapper-footer">
         <div class="container" id="target" style="display: none;">
-            {% for tag in page.tags %}
-            <div>{{ tag }}</div>
+            {% for tag in site.tags %}
+            {{ tag }}
             {% endfor %}
         </div>
     </div>
