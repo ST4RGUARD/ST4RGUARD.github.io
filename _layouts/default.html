@@ -39,8 +39,8 @@
         <div class="container" id="target" style="display: none;">
           {% for tag in page.tags %}
           {% capture tag_name %}{{ tag }}{% endcapture %}
-          <a href="/tag/{{ tag_name }}"><code class="highligher-rouge" style="color: white">{{ tag_name }}</code>&nbsp;</a>
-        {% endfor %}
+            <a href="/tag/{{ tag_name }}"><code class="highligher-rouge" style="color: white">{{ tag_name }}</code></a>
+          {% endfor %}
         </div>
     </div>
 
