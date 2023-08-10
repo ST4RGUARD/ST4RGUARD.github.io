@@ -36,7 +36,7 @@
       </div>
       <div class="wrapper-footer">
         <div class="container" id="target" style="display: none;">
-          {% for tag in site.tags %} {% assign tagName = tag | first | downcase %} {% assign postsCount = tag | last | size %} <a href='/tag?tagName={{ tagName }}'><i class='glyphicon glyphicon-tag'></i>{{ tagName }}</a>({{ postsCount }}) {% endfor %}
+          {% for tag in site.tags %} {% assign tagName = tag | first | downcase %} {% assign postsCount = tag | last | size %} <a href='/tag?{{ tagName }}'><i class='glyphicon glyphicon-tag'></i>{{ tagName }}</a>({{ postsCount }}) {% endfor %}
         </div>
     </div>
 
