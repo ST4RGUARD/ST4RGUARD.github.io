@@ -17,8 +17,8 @@ where user is the github user
 
 other tools such as Gitrob
 
--
+- golang configuration issues (abondoned for now)
 
 and Gitleaks
 
--
+- ./gitleaks detect (repo) -r report
