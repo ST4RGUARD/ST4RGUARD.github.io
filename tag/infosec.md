@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: infosec"
+title: "infosec"
 tag: infosec
 robots: noindex
 ---

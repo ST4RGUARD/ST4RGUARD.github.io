@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "shodan"
-tag: shodan
+title: "dns"
+tag: dns
 robots: noindex
 ---

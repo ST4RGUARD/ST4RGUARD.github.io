@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: offsec"
+title: "offsec"
 tag: offsec
 robots: noindex
 ---

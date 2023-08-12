@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: info_gathering"
+title: "info_gathering"
 tag: info_gathering
 robots: noindex
 ---

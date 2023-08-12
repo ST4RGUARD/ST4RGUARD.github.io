@@ -21,4 +21,6 @@ other tools such as Gitrob
 
 and Gitleaks
 
+to show github repo code security issues (hashes , keys , etc)
+
 - ./gitleaks detect (repo) -r report
