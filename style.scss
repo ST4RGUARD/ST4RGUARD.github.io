@@ -80,6 +80,7 @@ h1 {
 }
 
 h2 {
+  color: green;
   font-style: italic;
   font-size: 16px;
 }
@@ -87,13 +88,14 @@ h2 {
 h3 {
   background-color: #282525;
   padding: 7px 7px 7px 10px;
-  border: 1px solid rgb(210, 0, 193);
+  border: 3px solid rgb(210, 0, 193);
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   box-shadow: 3px 3px rgba(0,0,0,0.1);
   //margin: 20px 0 20px 0;
   overflow: scroll;
-  font-size: 20px;
+  font-size: 16px;
+  color: green;
 }
 
 h4 {
