@@ -1,6 +1,6 @@
 ---
 layout: tagpage
 title: "burpsuite"
-tag: burpuite
+tag: burpsuite
 robots: noindex
 ---
