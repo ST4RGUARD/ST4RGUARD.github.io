@@ -76,7 +76,6 @@ If this works we should be able to login as the admin account via the api with o
 
     $ curl -d '{"password":"pwned","username":"admin"}' -H 'Content-Type: application/json'  http://192.168.128.20:2002/users/v1/login
 
-
 <h4>Burpsuite API Testing</h4>
 
 Burpsuite can be very useful in enumerating apis and allowing for quick testing of requests and responses. It will keep track of all of them in the sitemap for quick access
