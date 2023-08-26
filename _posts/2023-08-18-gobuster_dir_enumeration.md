@@ -9,3 +9,5 @@ Gobuster will enumerate directories and files on a target web server through bru
 
     $ gobuster dir -u 192.168.200.10 -w /usr/share/wordlists/dirb/common.txt -t 5
 
+Try various user agent combinations when hunting for a flag
+
