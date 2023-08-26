@@ -1,7 +1,7 @@
 ---
 layout: post
 title: XSS
-titledate: 08/18/23
+titledate: 08/25/23
 tags: ["infosec","offsec","web", "xss", "wordpress"]
 ---
 
