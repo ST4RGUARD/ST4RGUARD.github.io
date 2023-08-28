@@ -2,7 +2,7 @@
 layout: post
 title: Web Enumeration - WordPress
 titledate: 08/25/23
-tags: ["infosec","offsec","burpsuite", "web", "wordpress"]
+tags: ["infosec","offsec","burpsuite", "web", "wordpress", "feroxbuster","gobuster"]
 ---
 
 During web enum exercises I'm picking up that WordPress could be likely target with a high attack surface area. I do know it is an immesley popular CMS for blogging
@@ -19,6 +19,8 @@ First we need to enumerate all of the site pages and directories - we have sever
     $ dirb http://192.168.255.16 -f
 
     $ feroxbuster -u http://192.168.255.16:5002 -x pdf -x js,html -x php txt json,docx -s 200,301
+
+    $ feroxbuster -u http://192.168.203.193:2000 -w list.txt
 
 <h4>Query API</h4>
 
