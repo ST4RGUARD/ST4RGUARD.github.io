@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Director Traversal Percent Encoding
+title: Directory Traversal Percent Encoding
 titledate: 08/28/23
 tags: ["infosec","offsec", "web", "dir_traversal"]
 ---
