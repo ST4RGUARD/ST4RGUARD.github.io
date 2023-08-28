@@ -1,6 +1,6 @@
 ---
 layout: tagpage
 title: "feroxbuster"
-tag: ferorxbuster
+tag: feroxbuster
 robots: noindex
 ---
