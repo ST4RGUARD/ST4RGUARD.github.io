@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Web App PHP Wrappers
-titledate: 08/29/23
+titledate: 08/30/23
 tags: ["infosec","offsec", "web", "lfi", "exploit", "php"]
 ---
 
