@@ -31,7 +31,7 @@ enter database
 
 list users
 
-    $ SELECT user FROM mysql. user; 
+    $ SELECT user FROM mysql.user; 
 
 list all values available to user
 
