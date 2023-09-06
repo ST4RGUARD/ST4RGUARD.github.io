@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Searchsploit
-titledate: 09/01/23
+titledate: 09/06/23
 tags: ["infosec","offsec","exploitdb","searchsploit"]
 ---
 
