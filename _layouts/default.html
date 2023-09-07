@@ -36,7 +36,7 @@
       </div>
       <div class="wrapper-footer">
         <div class="container" id="target" style="display: none;">
-          {% assign mytable = "<table cellpadding=\"0\" cellspacing=\"0\"><tbody><tr>" %} {% assign sorted_tags = site.tags | sort %} {% for tag in sorted_tags %} {% mytable += "</tr><tr>"} {% assign tagName = tag | first | downcase %} {% assign postsCount = tag | last | size %} <a href='/tag/{{ tagName }}'><i class='glyphicon glyphicon-tag'></i>{{ tagName }}</a>({{ postsCount }}) {% mytable += "<td>[" + tag + "]</td>" %} {% mytable += "</tr></tbody></table>" %} {% endfor %}
+          {% var mytable = "<table cellpadding=\"0\" cellspacing=\"0\"><tbody><tr>" %} {% assign sorted_tags = site.tags | sort %} {% for tag in sorted_tags %} {% mytable += "</tr><tr>"} {% assign tagName = tag | first | downcase %} {% assign postsCount = tag | last | size %} <a href='/tag/{{ tagName }}'><i class='glyphicon glyphicon-tag'></i>{{ tagName }}</a>({{ postsCount }}) {% mytable += "<td>[" + tag + "]</td>" %} {% mytable += "</tr></tbody></table>" %} {% endfor %}
         </div>
     </div>
 
