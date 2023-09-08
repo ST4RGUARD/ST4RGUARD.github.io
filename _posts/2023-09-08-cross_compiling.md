@@ -48,10 +48,10 @@ after recompiling our exploit we can open our debugger with the application runn
 
 because we are running an executable we can use wine to run the exploit
 
-    sudo wine syncbreeze_exploit.exe
+    $ sudo wine syncbreeze_exploit.exe
 
   When we run the exploit we did not hit our breakpoint but instead hit a crash with the value of the EIP register pointing to 0x9010090c
 
 #### fixing the code
 
-the eip address has an extra 90 or nop in it so we are off 1 byte and need to remove a nop from the shellcode
+the eip address is off one byte, when examining the exploit code we can see the buffer size is set to 780 the size required to overwrite the return address on the stack and control eip, however, further in the code when the exploit is built we can see there is a 0x00 null byte added, so we need to increase the size of the buffer to 781
