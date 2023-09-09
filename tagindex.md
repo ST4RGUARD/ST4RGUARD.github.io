@@ -10,7 +10,7 @@ permalink: /tagindex/
   </head>
     <body>
       <div>
-        {% assign sorted_tags = site.tags | sort %} {% for tag in sorted_tags %} {% assign tagName = tag | first | downcase %} {% assign postsCount = tag | last | size %} <ul><a href='/tag/{{ tagName }}'><i class='glyphicon glyphicon-tag'></i>{{ tagName }}</a>({{ postsCount }})</ul> {% endfor %}
+        {% assign sorted_tags = site.tags | sort %} {% for tag in sorted_tags %} {% assign tagName = tag | first | downcase %} {% assign postsCount = tag | last | size %} <br><a href='/tag/{{ tagName }}'><i class='glyphicon glyphicon-tag'></i>{{ tagName }}</a>({{ postsCount }})</br> {% endfor %}
       </div>
     </body>
 </html>
