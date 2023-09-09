@@ -30,15 +30,10 @@
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
-            <a href="#" id="trigger" onclick="toggleDisplay(document.querySelector('#target'))">Tags</a>
+            <a href="{{ site.baseurl }}/tagindex">Tags</a>
           </nav>
         </header>
       </div>
-      <div class="wrapper-footer">
-        <div class="container" id="target" style="display: none;">
-          {% assign sorted_tags = site.tags | sort %} {% for tag in sorted_tags %} {% assign tagName = tag | first | downcase %} {% assign postsCount = tag | last | size %} <a href='/tag/{{ tagName }}'><i class='glyphicon glyphicon-tag'></i>{{ tagName }}</a>({{ postsCount }}) {% endfor %}
-        </div>
-    </div>
 
     <div id="main" role="main" class="container">
       {{ content }}
