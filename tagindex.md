@@ -3,7 +3,7 @@ layout: page
 title: Tag Index
 permalink: /tagindex/
 ---
-<!doctype html>
+
 <html>
   <head>
     <title>Tag Index</title>
@@ -17,6 +17,7 @@ permalink: /tagindex/
         mytable += "</tr><tr>";
         mytable += "<td>[" + tag + "]</td>";
         mytable += "</tr></tbody></table>";
+        document.body.appendChild(mytable);
       </script>
     </body>
 </html>
