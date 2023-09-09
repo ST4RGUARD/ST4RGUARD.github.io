@@ -80,7 +80,7 @@ enable stealth mode to continue normal application execution after the exploit c
 
 in the following example we inject a payload in the spotify executable
 
-- img
+![_config.yml]({{ site.baseurl }}/images/exploitation/shellter.png)
 
 now we can send our payload to our windows system
 
