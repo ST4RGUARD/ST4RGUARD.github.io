@@ -90,4 +90,6 @@ i do this with by hosting a python upload download server
 
 ### NOTE: if receiving a connect from the victim server but shell terminates with netcat, setup meterpreter listener or try stageless payload
 
+### TODO: Write script to generate all shellcode option files based off of ip addr and port arguments - arch, format, bad chars, shellcode type etc
+
 
