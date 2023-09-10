@@ -5,7 +5,7 @@ titledate: 09/09/23
 tags: ["infosec","offsec", "exploit", "evasion", "shell", "powershell", "shellter"]
 ---
 
-#### Evading Avira
+#### Evading AV
 
 One technique is to use variable obfuscation or randomization
 
