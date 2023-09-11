@@ -2,7 +2,7 @@
 layout: post
 title: API Priv Escalation
 titledate: 08/25/23
-tags: ["infosec","offsec","web", "api", "gobuster", "burpsuite"]
+tags: ["infosec","offsec","web", "api", "gobuster", "burpsuite", "http"]
 ---
 
 <h4>Brute Force with Gobuster</h4>

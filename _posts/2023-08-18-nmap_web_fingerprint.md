@@ -2,7 +2,7 @@
 layout: post
 title: Fingerprint Web Server - Nmap
 titledate: 08/18/23
-tags: ["infosec","offsec","web", "nmap"]
+tags: ["infosec","offsec","web", "nmap", "http"]
 ---
 
 We can use Nmap to fingerprint the target web server using service discovery

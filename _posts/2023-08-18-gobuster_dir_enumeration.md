@@ -2,7 +2,7 @@
 layout: post
 title: Web Server Directory Enumeration - Gobuster
 titledate: 08/18/23
-tags: ["infosec","offsec","web", "gobuster"]
+tags: ["infosec","offsec","web", "gobuster", "http"]
 ---
 
 Gobuster will enumerate directories and files on a target web server through brute forcing using wordlists

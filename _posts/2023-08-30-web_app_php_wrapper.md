@@ -2,7 +2,7 @@
 layout: post
 title: Web App PHP Wrappers
 titledate: 08/30/23
-tags: ["infosec","offsec", "web", "lfi", "exploit", "php"]
+tags: ["infosec","offsec", "web", "lfi", "exploit", "php", "http"]
 ---
 
 <h4>PHP Wrappers</h4>

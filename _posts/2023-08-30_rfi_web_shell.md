@@ -2,7 +2,7 @@
 layout: post
 title: Remote File Inclusion - PHP Web Shells
 titledate: 08/30/23
-tags: ["infosec","offsec", "web", "rfi", "exploit", "php", "shell"]
+tags: ["infosec","offsec", "web", "rfi", "exploit", "php", "shell", "http"]
 ---
 
 for RFI vulns just like the php data:// wrapper the allow_url_include option must be enabled in teh php web application

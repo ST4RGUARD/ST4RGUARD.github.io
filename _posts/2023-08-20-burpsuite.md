@@ -2,7 +2,7 @@
 layout: post
 title: Burpsuite
 titledate: 08/20/23
-tags: ["infosec","offsec","burpsuite", "web"]
+tags: ["infosec","offsec","burpsuite", "web", "http"]
 ---
 
 Burpsuite is a tool that acts as a proxy and allows us to inspect and modify web traffic 

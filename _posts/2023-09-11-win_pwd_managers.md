@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Windows Password Managers
-titledate: 09/10/23
+titledate: 09/11/23
 tags: ["infosec","offsec", "password"]
 ---
 

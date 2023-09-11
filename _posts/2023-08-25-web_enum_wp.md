@@ -2,7 +2,7 @@
 layout: post
 title: Web Enumeration - WordPress
 titledate: 08/25/23
-tags: ["infosec","offsec","burpsuite", "web", "wordpress", "feroxbuster","gobuster"]
+tags: ["infosec","offsec","burpsuite", "web", "wordpress", "feroxbuster","gobuster", "http"]
 ---
 
 During web enum exercises I'm picking up that WordPress could be likely target with a high attack surface area. I do know it is an immesley popular CMS for blogging

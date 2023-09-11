@@ -2,7 +2,7 @@
 layout: post
 title: File Upload
 titledate: 08/30/23
-tags: ["infosec","offsec", "web", "exploit", "php"]
+tags: ["infosec","offsec", "web", "exploit", "php", "http"]
 ---
 
 <h4>executable files</h4>

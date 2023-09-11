@@ -2,7 +2,7 @@
 layout: post
 title: Directory Traversal Percent Encoding
 titledate: 08/28/23
-tags: ["infosec","offsec", "web", "dir_traversal"]
+tags: ["infosec","offsec", "web", "dir_traversal", "http"]
 ---
 
 It may be necessary to % encode the path traversal in the URI request in order to bypass firewalls 

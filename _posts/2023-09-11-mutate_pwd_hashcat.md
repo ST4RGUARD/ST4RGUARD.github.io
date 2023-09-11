@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mutating Password Lists with Hashcat
-titledate: 09/10/23
+titledate: 09/11/23
 tags: ["infosec","offsec", "password", "hashcat"]
 ---
 
