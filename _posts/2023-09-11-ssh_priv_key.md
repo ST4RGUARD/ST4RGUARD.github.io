@@ -11,6 +11,8 @@ during an engagement we may run across a target private id_rsa ssh key
 
 it is likely the key is password protected, some keys may have no password
 
+    $ ssh2john id_rsa > ssh.hash
+
 examining the file will let us know what kind of hasing algorithm is being implemented
 
     id_rsa:$sshng$6$16$38298....
