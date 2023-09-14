@@ -2,7 +2,7 @@
 layout: post
 title: Windows Target Profiling
 titledate: 09/13/23
-tags: ["infosec","offsec", "privesc", "profiling"]
+tags: ["infosec","offsec", "privesc"]
 ---
 
 #### Target Info
