@@ -73,3 +73,29 @@ Running processes
     PS:> Get-Process |Select-Object -ExpandProperty Path
 
 list of currently running processes with path
+
+if keepass and xampp are installed there should be password manager databases
+
+we can run a search for these database files with 
+
+    $ Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
+
+xampp search for files 
+
+    $ Get-ChildItem -Path C:\xampp -Include *.txt,*.ini -File -Recurse -ErrorAction SilentlyContinue
+
+we can search the users home directory/downloads/desktop/documents
+
+    $ Get-ChildItem -Path C:\Users\dave\ -Include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue
+
+if we find any relevant user or password information, we can cross reference it with the group they belong to
+
+    $ net user dan
+
+perhaps we can test a different user wlike dan and connect to rdp to see if he mas access to any txt or ini files etc
+
+we may be able to pivot from user to user
+
+we can run commands as a specific user like below if we do not have RDP access
+
+    $ runas /user:backupadmin cmd
