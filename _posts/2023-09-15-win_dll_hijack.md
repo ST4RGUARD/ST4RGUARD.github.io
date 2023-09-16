@@ -9,6 +9,10 @@ tags: ["infosec","offsec", "privesc", "powershell", "exploit", "dll"]
 
 if we are unable to replace the binary bc of a permission issue we may be able to work with its dlls
 
+first let's find the running processes
+
+    PS > Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Object {$_.State -like 'Running'}
+
 we can run procmon to display the loaded dlls of the binary we are interested in, however, we need admin creds to run procmon
 
 depending on the application, if necessary we can copy the binary to our local system to execute in a different administrator environment to see which dlls we have available to us
