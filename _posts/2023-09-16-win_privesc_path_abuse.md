@@ -2,7 +2,7 @@
 layout: post
 title: Windows Unquoted Paths
 titledate: 09/16/23
-tags: ["infosec","offsec", "privesc", "powershell", "exploit", "dll", "powerup"]
+tags: ["infosec","offsec", "privesc", "powershell", "dll", "powerup"]
 ---
 
 #### unquoted binary path abuse

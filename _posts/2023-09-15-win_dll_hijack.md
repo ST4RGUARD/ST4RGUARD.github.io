@@ -2,7 +2,7 @@
 layout: post
 title: Windows Service DLL Hijacking
 titledate: 09/15/23
-tags: ["infosec","offsec", "privesc", "powershell", "exploit", "dll"]
+tags: ["infosec","offsec", "privesc", "powershell", "dll"]
 ---
 
 #### dll hijacking

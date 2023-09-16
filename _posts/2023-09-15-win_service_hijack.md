@@ -2,7 +2,7 @@
 layout: post
 title: Windows Service Binary Hijacking
 titledate: 09/15/23
-tags: ["infosec","offsec", "privesc", "powershell", "exploit", "powerup"]
+tags: ["infosec","offsec", "privesc", "powershell", "powerup"]
 ---
 
 #### hijacking binary services
