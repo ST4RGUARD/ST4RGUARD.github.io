@@ -26,7 +26,7 @@ Existing users and groups
     C:> net user
     PS:> Get-LocalUser
 
-list of all loacl user accounts
+list of all local user accounts
     
     PS:> Get-LocalGroup
 

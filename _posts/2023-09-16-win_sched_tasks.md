@@ -21,6 +21,11 @@ let's view the tasks
 
     PS > schtasks /query /fo LIST /v
 
+as always it will be helpful to know which users are administrators so these cmds are helpful
+
+    PS > net user
+    PS > Get-LocalGroupMember Administrators
+
 this will provide us with a load of useful information like, the taskname, the time it is scheduled to run, if it was successful last run, who created it, where it executes from, and what is executing
 
 we can check the permissions on the directory of the task 
@@ -36,3 +41,7 @@ and then move it to the directory the task executes from
     PS > move .\mytask.exe .\Pictures\
 
 now to get our code to execute we must wait for the next scheduled execution of the task
+
+### TODO: need to write a script to parse the output of the tasks output to be more useful
+
+### NOTE: can try filtering for dirs with perms like C:\Users etc
