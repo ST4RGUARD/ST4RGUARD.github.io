@@ -42,7 +42,7 @@ if a dll does not contain a dll main function then that dll only provides resour
 
 checking the environment path 
 
-```c
+```cpp
 BOOL APIENTRY DllMain(
 HANDLE hModule,// Handle to DLL module
 DWORD ul_reason_for_call,// Reason for calling function
