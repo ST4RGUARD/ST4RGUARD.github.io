@@ -92,7 +92,7 @@ if we find any relevant user or password information, we can cross reference it 
 
     $ net user dan
 
-perhaps we can test a different user wlike dan and connect to rdp to see if he mas access to any txt or ini files etc
+perhaps we can test a different user like dan and connect to rdp to see if he mas access to any txt or ini files etc
 
 we may be able to pivot from user to user
 
