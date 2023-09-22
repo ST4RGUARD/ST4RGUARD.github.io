@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Local Port Forwarding Socat
+title: Local Port Forwarding
 titledate: 09/22/23
-tags: ["infosec", "info_gathering", "offsec", "tunnel", "socat"]
+tags: ["infosec", "info_gathering", "offsec", "tunnel", "smbclient"]
 ---
 
 #### local port forwarding
