@@ -7,6 +7,12 @@ tags: ["infosec", "info_gathering", "offsec", "tunnel", "socat", "hashcat"]
 
 #### port forwarding
 
+upon inspecting a machine we have gained access to we discover a confluence config
+
+  $ cat /var/atlassian/application-data/confluence/confluence.cfg.xml
+
+this machine has creds for a machine we do not have access to but our target doe and is running a postgres server
+
 first we need to copy or install socat on our target machine inside our WAN
 
 we will use socat to set up a listening port on the target machine we have access to in our WAN
