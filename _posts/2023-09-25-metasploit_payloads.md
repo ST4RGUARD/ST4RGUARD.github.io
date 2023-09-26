@@ -158,3 +158,8 @@ to elevate our privs, we can then load kiwi
 
 this will allow us to dump user creds if we have sufficent privs
 
+check exploit target 
+
+    msf> set exploit target 1
+
+this will allow the inclusion of the payloads that coorelate
