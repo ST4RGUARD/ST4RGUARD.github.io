@@ -50,7 +50,6 @@ to run the script we need to bypass the execution policy
 
 if we improve upon the script to get us the PDC role owner name and the distinguished name needed for the LDAP path it will look like
 
-- ldapathy.ps1
 ```powershell
 $PDC = [System.DirectoryServices.ActiveDirectory.Domain]::GetCurrentDomain().PdcRoleOwner.Name
 $DN = ([adsi]'').distinguishedName 
