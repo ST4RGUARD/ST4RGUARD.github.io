@@ -140,7 +140,7 @@ get users
 
 list domain groups
 
-    PS> Get-NetGroups
+    PS> Get-NetGroup
 
 using pipe to display more info
 
