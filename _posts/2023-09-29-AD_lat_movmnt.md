@@ -2,7 +2,7 @@
 layout: post
 title: Active Directory Lateral Movement
 titledate: 09/29/23
-tags: ["infosec", "offsec", "ad", "powershell"]
+tags: ["infosec", "offsec", "ad", "powershell", "evil-winrm"]
 ---
 
 #### lateral with wmi and winrm
