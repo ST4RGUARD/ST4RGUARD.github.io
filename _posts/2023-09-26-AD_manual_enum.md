@@ -252,6 +252,7 @@ we find a gpp encrypted password that we can decrypt on our attacking machine
 
 - make sure to investigate all shares! 
 
+
     PS> ls \\FILES04\docshare
 
 #### sharphound

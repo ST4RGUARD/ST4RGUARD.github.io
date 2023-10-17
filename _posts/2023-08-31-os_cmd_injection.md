@@ -2,7 +2,7 @@
 layout: post
 title: CMD Injection
 titledate: 08/31/23
-tags: ["infosec","offsec", "exploit", "web", "shell", "powershell"]
+tags: ["infosec","offsec", "exploit", "web", "shell", "powershell", "curl"]
 ---
 
 some applicagions may allow you to input queries or commands - in these instances we can try to add additional commands to them to see if they are properly filtered or strictly limited to what is allowed

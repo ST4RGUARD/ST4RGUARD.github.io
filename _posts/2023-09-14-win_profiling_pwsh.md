@@ -2,10 +2,10 @@
 layout: post
 title: Windows Target Profiling Powershell
 titledate: 09/14/23
-tags: ["infosec","offsec", "privesc", "powershell", "evil-winrm"]
+tags: ["infosec","offsec", "privesc", "powershell", "evil-winrm","win_enum"]
 ---
 
-#### most admins clear ps history with Clear-History but leave PSReadlines untouched
+### most admins clear ps history with Clear-History but leave PSReadlines untouched
 
 using powershell to retrieve information about how it has been used can be fruitful
 
@@ -32,3 +32,5 @@ some commands like whoami may work inside the ps remoting session but if we are 
 In this case we can use evil-winrm
 
     evil-winrm -i 192.168.50.220 -u admin -p "qwertqwertqwert123\!\!"
+
+More evil-winrm commands here !!

@@ -42,3 +42,5 @@ we can use ncat to pass a proxy command to ssh's proxycommand
     $ ssh -o ProxyCommand='ncat --proxy-type socks5 --proxy 127.0.0.1:1080 %h %p' database_admin@10.4.50.50
 
 now we've established an ssh connection to a pg db machine on an internal network via chisel reverse socks proxy tunneled through a reverse http tunnel
+
+### NOTE: may need to try different versions of chisel for compatibility

@@ -2,7 +2,7 @@
 layout: post
 title: DNS Tunneling
 titledate: 09/24/23
-tags: ["infosec", "info_gathering", "offsec", "tunnel", "dnsmasq", "dnscat2"]
+tags: ["infosec", "info_gathering", "offsec", "tunnel", "dnsmasq", "dnscat2", "dns"]
 ---
 
 #### dns queries and exfiltration
