@@ -337,6 +337,20 @@ body::-webkit-scrollbar-thumb {
   border: 1px solid orange;  /* creates padding around scroll thumb */
 }
 
+.highlight {
+  -webkit-scrollbar {
+    height: 6px;
+    width: 6px;               /* width of the entire scrollbar */
+  }
+  -webkit-scrollbar-track {
+    background: orange;        /* color of the tracking area */
+  }
+  -webkit-scrollbar-thumb {
+    background-color: black;    /* color of the scroll thumb */
+    border-radius: 4px;       /* roundness of the scroll thumb */
+    border: 1px solid orange;  /* creates padding around scroll thumb */
+  }
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
