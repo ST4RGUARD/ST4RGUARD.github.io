@@ -2,7 +2,7 @@
 layout: post
 title: Active Directory Auth Attacks
 titledate: 09/26/23
-tags: ["infosec", "offsec", "AD", "powershell", "mimikatz", "rubeus", "impacket", "hashcat"]
+tags: ["infosec", "offsec", "ad", "powershell", "mimikatz", "rubeus", "impacket", "hashcat"]
 ---
 
 #### pass cracking

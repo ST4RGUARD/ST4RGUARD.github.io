@@ -2,7 +2,7 @@
 layout: post
 title: Active Directory Lateral Movement Cont.
 titledate: 09/29/23
-tags: ["infosec", "offsec", "AD", "powershell", "psexec", "pth", "mimikatz"]
+tags: ["infosec", "offsec", "ad", "powershell", "psexec", "pth", "mimikatz"]
 ---
 
 #### psexec

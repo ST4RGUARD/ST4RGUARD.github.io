@@ -2,7 +2,7 @@
 layout: post
 title: Active Directory Persistence
 titledate: 10/01/23
-tags: ["infosec", "offsec", "AD", "powershell", "persistence"]
+tags: ["infosec", "offsec", "ad", "powershell", "persistence"]
 ---
 
 #### golden ticket

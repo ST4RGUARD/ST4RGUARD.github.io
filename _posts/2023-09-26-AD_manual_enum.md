@@ -2,7 +2,7 @@
 layout: post
 title: Active Directory Enumeration
 titledate: 09/26/23
-tags: ["infosec", "offsec", "AD", "powershell", "powerview", "sharphound", "bloodhound"]
+tags: ["infosec", "offsec", "ad", "powershell", "powerview", "sharphound", "bloodhound"]
 ---
 
 #### legacy tools
