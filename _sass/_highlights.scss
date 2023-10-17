@@ -8,7 +8,8 @@
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-scrollbar {
-    width: 4px;               /* width of the entire scrollbar */
+    height: 6px;
+    width: 6px;               /* width of the entire scrollbar */
   }
   -webkit-scrollbar-track {
     background: orange;        /* color of the tracking area */
