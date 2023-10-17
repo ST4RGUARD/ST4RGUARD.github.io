@@ -1,6 +1,6 @@
 ---
 layout: tagpage
 title: "ad"
-tag: ad
+tag: AD
 robots: noindex
 ---
