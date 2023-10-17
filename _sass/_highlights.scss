@@ -7,14 +7,14 @@
   border: 1px solid #1b1a1a;
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  -webkit-scrollbar {
+  ::-webkit-scrollbar {
     height: 6px;
     width: 6px;               /* width of the entire scrollbar */
   }
-  -webkit-scrollbar-track {
+  ::-webkit-scrollbar-track {
     background: orange;        /* color of the tracking area */
   }
-  -webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb {
     background-color: black;    /* color of the scroll thumb */
     border-radius: 4px;       /* roundness of the scroll thumb */
     border: 1px solid orange;  /* creates padding around scroll thumb */
