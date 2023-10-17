@@ -214,7 +214,7 @@ enumerate ACLS for object group inside powerview
 
     PS> Get-ObjectAcl -Identity user
 
-    PS> Get-ObjectAcl -Identity "Group  Department" | ? {$_.ActiveDirectoryRights -eq "GenericAll"} | select SecurityIdentifier,ActiveDirectoryRights
+    PS> Get-ObjectAcl -Identity "DnsAdmins" | ? {$_.ActiveDirectoryRights -eq "GenericAll"} | select SecurityIdentifier,ActiveDirectoryRights
 
 convert SIDs results to readable ouptput
 
