@@ -30,3 +30,12 @@ then execute these PS commands
     Restart-Service -Force -DisplayName "Remote Desktop Services"
 
 then after a minute or so the rdp port should be enabled and viewable with nmap or 
+
+if unable to rdp in , seeing ui error max number of sessions reached, we can 
+
+    query session
+    logoff 1
+
+with 1 being a user that is logged in, (of course this could ruin session creds but will get us in for now)
+
+or + clipboard option in xfreerdp
