@@ -2,7 +2,7 @@
 layout: post
 title: Windows impacket-psexec
 titledate: 10/17/23
-tags: ["infosec","offsec", "privesc", "psexec"]
+tags: ["infosec","offsec", "privesc", "psexec", "impacket"]
 ---
 
 #### admin

@@ -5,6 +5,8 @@ titledate: 09/26/23
 tags: ["infosec", "offsec", "ad", "powershell", "powerview", "sharphound", "bloodhound"]
 ---
 
+### Examine all unusual binaries for information
+
 #### legacy tools
 
 for this sceanario we assume we have gained access to the AD via a client
