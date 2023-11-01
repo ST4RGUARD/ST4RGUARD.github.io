@@ -2,7 +2,7 @@
 layout: post
 title: Local Port Forwarding
 titledate: 09/22/23
-tags: ["infosec", "info_gathering", "offsec", "tunnel", "smbclient"]
+tags: ["infosec", "offsec", "tunnel", "smbclient"]
 ---
 
 #### local port forwarding

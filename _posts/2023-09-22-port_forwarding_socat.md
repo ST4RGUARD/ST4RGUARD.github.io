@@ -2,7 +2,7 @@
 layout: post
 title: Port Forwarding Socat
 titledate: 09/22/23
-tags: ["infosec", "info_gathering", "offsec", "tunnel", "socat", "hashcat"]
+tags: ["infosec", "offsec", "tunnel", "socat", "hashcat"]
 ---
 
 #### port forwarding

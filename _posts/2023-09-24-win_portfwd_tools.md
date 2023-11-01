@@ -2,7 +2,7 @@
 layout: post
 title: Windows Port Forwarding
 titledate: 09/24/23
-tags: ["infosec", "info_gathering", "offsec", "tunnel", "plink", "netsh", "ssh"]
+tags: ["infosec", "offsec", "tunnel", "plink", "netsh", "ssh"]
 ---
 
 #### Windows SSH tools

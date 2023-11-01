@@ -2,7 +2,7 @@
 layout: post
 title: Remote Port Forwarding
 titledate: 09/23/23
-tags: ["infosec", "info_gathering", "offsec", "tunnel"]
+tags: ["infosec", "offsec", "tunnel"]
 ---
 
 because of security limitations like a firewall, we will most likely be able to ssh out of our target back to our attacking machine

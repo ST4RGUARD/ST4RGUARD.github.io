@@ -2,7 +2,7 @@
 layout: post
 title: Dynamic Port Forwarding
 titledate: 09/22/23
-tags: ["infosec", "info_gathering", "offsec", "tunnel", "proxychains", "smbclient"]
+tags: ["infosec", "offsec", "tunnel", "proxychains", "smbclient"]
 ---
 
 #### moar power

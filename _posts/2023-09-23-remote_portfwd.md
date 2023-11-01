@@ -2,7 +2,7 @@
 layout: post
 title: Remote Dynamic Port Forwarding
 titledate: 09/23/23
-tags: ["infosec", "info_gathering", "offsec", "tunnel", "socat", "sshuttle"]
+tags: ["infosec", "offsec", "tunnel", "socat", "sshuttle"]
 ---
 
 remote dynamic port forwarding works similar to local in that we want to forward traffic to multiple clients from one session and we can do this in a remote port forwarding instance in which we can setup the session from the target1

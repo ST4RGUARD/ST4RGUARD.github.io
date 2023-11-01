@@ -2,7 +2,7 @@
 layout: post
 title: HTTP Tunneling
 titledate: 09/24/23
-tags: ["infosec", "info_gathering", "offsec", "tunnel", "chisel", "ncat"]
+tags: ["infosec", "offsec", "tunnel", "chisel", "ncat"]
 ---
 
 #### chisel
