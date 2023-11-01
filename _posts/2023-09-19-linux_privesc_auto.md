@@ -15,6 +15,10 @@ we can try both standard and detailed mode - copy the script over the system and
 
 some other tools that can check linux systems are LinEnum and LinPeas
 
+#### dirtypipe
+
+    ./dirtypipe /home/john/RESET_PASSWD
+
 check history and user env
 
     $ history
